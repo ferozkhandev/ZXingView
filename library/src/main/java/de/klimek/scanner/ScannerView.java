@@ -241,4 +241,7 @@ public class ScannerView extends FrameLayout {
     public void setOnCameraErrorCallback(OnCameraErrorCallback callback) {
         mCameraErrorCallback = callback;
     }
+    public Camera getCameraInstance(){
+        return mCamera;   
+    }
 }
